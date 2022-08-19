@@ -60,3 +60,79 @@ create_room(*address, *name, *text) - Create a new index.
 connect(*address, *name, *server_name) - Connecting to index.
 
 printC(*tx, *c) - Print colored text.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Документация (ru)
+
+
+Автор: Vagif Babayev (two-it2022)
+
+Почта: kodland.group@gmail.com
+
+Версия: 1.0
+
+
+# 1. Установка
+
+Откройте Командную Строку и напишите внутрь: pip install mcoms
+Создайте файл [имя_вашего_файла].py и напишите внутрь: 
+
+import mcoms или from mcoms import *
+
+# 2. Команды
+
+FileDialog(*type) - Открывает диалоговое окно. Тип: save_as, open
+
+fileRemove(*file) - Удаляет файл.
+
+PlayAudio(*file) - Проигрывает MP3 или WAV файл.
+
+printS(*text, *sleepTime) - Выводит текст через заданное время.
+
+loadText(*txt, *sleepTime) - Выводит текст-загрузку.
+
+loadSs(*style, *Sss, *timeSleep) - Загужает стили. Стили: square, line, circle
+
+LetterEdit(*text, *style) - Изменяет тип буквы. Типы: up, down
+
+fileRead(*file) - Прочитывает внутренный текст файла.
+
+fileWrite(*file, *text) - Изменяет текст файла.
+
+fileCreate(*name) - Создаёт файл.
+
+fileRename(*oldName, newName) - Переименовает имя файла.
+
+mailReg(*userR, *passwordR) - Регистрирует почту пользователя.
+
+sendToGmail(*to, *message) - Отправляет сообщение на почту в Gmail.
+
+sendToMail(*to, *message) - Отправляет сообщение на почту в Mail.
+
+Translate(*fromL, *toL, *text) - Переводит текст с заданного на заданный язык.
+
+System(*typeS) - Показывает данные о системе. Типы: display, ip-address
+
+MessageWindow(*type, *title, *message) - Создает окно "Сообщение". Типы: info, warning, error, ask, ask_ok_cancel, ask_retry
+
+timer(*type, *count) - Таймер секунд, минут и часов. Типы: s-секунда, m-минута, h-часы
+
+start_server() - Запускает сайт на хостинге.
+
+create_room(*address, *name, *text) - Создаёт индекс.
+
+connect(*address, *name, *server_name) - Подключаеться к индексу.
+
+printC(*tx, *c) - Выводит раскрашенный текст.
